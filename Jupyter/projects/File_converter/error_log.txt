@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "F:\Dev\Jupyter\projects\File_converter\main.py", line 12, in <module>
+    from gui.app import run_processing
+  File "F:\Dev\Jupyter\projects\File_converter\src\gui\__init__.py", line 1, in <module>
+    from .app import run_processing
+  File "F:\Dev\Jupyter\projects\File_converter\src\gui\app.py", line 4, in <module>
+    from src.io.file_io import read_tof_file
+  File "F:\Dev\Jupyter\projects\File_converter\src\io\__init__.py", line 1, in <module>
+    from .file_io import read_tof_file
+  File "F:\Dev\Jupyter\projects\File_converter\src\io\file_io.py", line 4, in <module>
+    from pyopenms import MSExperiment, MSSpectrum, SpectrumAlignment, PeakPickerHiRes, Param
+ModuleNotFoundError: No module named 'pyopenms'
+Proceed (Y/n)? ^CTraceback (most recent call last):
+  File "F:\Dev\Jupyter\projects\File_converter\main.py", line 15, in <module>
+    run_processing()
+  File "F:\Dev\Jupyter\projects\File_converter\src\gui\app.py", line 11, in run_processing
+    folder_path = folder_entry.get()
+  File "F:\Dev\Jupyter\dist\ms_reader\lib\tkinter\__init__.py", line 3072, in get
+    return self.tk.call(self._w, 'get')
+_tkinter.TclError: invalid command name ".!entry"
+^CTraceback (most recent call last):
+  File "F:\Dev\Jupyter\projects\File_converter\main.py", line 15, in <module>
+    run_processing()
+  File "F:\Dev\Jupyter\projects\File_converter\src\gui\app.py", line 11, in run_processing
+    folder_path = folder_entry.get()
+  File "F:\Dev\Jupyter\dist\ms_reader\lib\tkinter\__init__.py", line 3072, in get
+    return self.tk.call(self._w, 'get')
+_tkinter.TclError: invalid command name ".!entry"
+^CTraceback (most recent call last):
+  File "C:\DEV\Jupyter\projects\File_converter\main.py", line 15, in <module>
+    run_processing()
+  File "C:\DEV\Jupyter\projects\File_converter\src\gui\app.py", line 11, in run_processing
+    folder_path = folder_entry.get()
+  File "C:\DEV\Jupyter\dist\ms_reader\lib\tkinter\__init__.py", line 3072, in get
+    return self.tk.call(self._w, 'get')
+_tkinter.TclError: invalid command name ".!entry"
+^CTraceback (most recent call last):
+  File "C:\DEV\Jupyter\projects\File_converter\main.py", line 15, in <module>
+    run_processing()
+  File "C:\DEV\Jupyter\projects\File_converter\src\gui\app.py", line 11, in run_processing
+    folder_path = folder_entry.get()
+  File "C:\DEV\Jupyter\dist\ms_reader\lib\tkinter\__init__.py", line 3072, in get
+    return self.tk.call(self._w, 'get')
+_tkinter.TclError: invalid command name ".!entry"

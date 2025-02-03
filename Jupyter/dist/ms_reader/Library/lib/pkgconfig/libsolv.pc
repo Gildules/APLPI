@@ -1,0 +1,8 @@
+libdir=C:/Dev/Jupyter/dist/ms_reader/Library/lib
+includedir=C:/Dev/Jupyter/dist/ms_reader/Library/include
+
+Name: libsolv
+Description: Library for solving packages
+Version: 0.7.30
+Libs: -L${libdir} -lsolv
+Cflags: -I${includedir}

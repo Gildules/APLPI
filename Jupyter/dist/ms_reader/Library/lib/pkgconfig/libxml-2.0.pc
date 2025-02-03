@@ -1,0 +1,11 @@
+prefix=C:/Dev/Jupyter/dist/ms_reader/Library 
+exec_prefix=C:/Dev/Jupyter/dist/ms_reader/Library 
+libdir=C:/Dev/Jupyter/dist/ms_reader/Library/lib 
+includedir=C:/Dev/Jupyter/dist/ms_reader/Library/include 
+modules=0 
+Name: libXML 
+Version: 2.12.7 
+Description: libXML library version2. 
+Requires: 
+Libs: -LC:/Dev/Jupyter/dist/ms_reader/Library/lib -lxml2 -liconv -lz 
+Cflags: -IC:/Dev/Jupyter/dist/ms_reader/Library/include/libxml2 -IC:/Dev/Jupyter/dist/ms_reader/Library/include 
